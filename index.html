@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shreeji Xerox & CSC Center</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#f5f7fb;color:#222}
+header{background:linear-gradient(135deg,#d71920,#ff9800);color:white;padding:28px 18px;text-align:center}
+header h1{margin:0;font-size:30px}
+header p{margin:8px 0 0;font-size:17px}
+.container{max-width:900px;margin:auto;padding:18px}
+.card{background:white;border-radius:16px;padding:20px;margin:15px 0;box-shadow:0 4px 15px #0001}
+h2{color:#d71920;margin-top:0}
+.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px}
+.service{background:#fff3e0;border-radius:12px;padding:15px;text-align:center;font-weight:bold;cursor:pointer}
+.service:hover{background:#ffe0b2}
+.details{display:none;padding:12px;margin-top:8px;background:#f1f8ff;border-radius:10px}
+.details.show{display:block}
+.buttons{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:13px 18px;border-radius:10px;text-decoration:none;color:white;font-weight:bold}
+.call{background:#198754}
+.whatsapp{background:#25d366}
+.map{background:#4285f4}
+footer{background:#222;color:white;text-align:center;padding:20px;margin-top:20px}
+ul{padding-left:20px}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>શ્રીજી ઝેરોક્ષ & CSC Center</h1>
+<p>તમામ ઓનલાઈન અને ડોક્યુમેન્ટ સેવાઓ એક જ સ્થળે</p>
+</header>
+
+<div class="container">
+
+<div class="card">
+<h2>📋 અમારી સેવાઓ</h2>
+
+<div class="services">
+
+<div class="service" onclick="show('pan')">🪪 PAN Card</div>
+<div class="service" onclick="show('pf')">💼 PF Services</div>
+<div class="service" onclick="show('aadhaar')">🆔 Aadhaar</div>
+<div class="service" onclick="show('scholarship')">🎓 Scholarship</div>
+<div class="service" onclick="show('government')">🏛️ સરકારી સેવાઓ</div>
+<div class="service" onclick="show('documents')">📄 Document Services</div>
+<div class="service" onclick="show('itr')">💰 ITR Filing</div>
+<div class="service" onclick="show('other')">➕ અન્ય સેવાઓ</div>
+
+</div>
+
+<div id="pan" class="details">
+<b>PAN Card Services</b>
+<ul>
+<li>નવું PAN Card</li>
+<li>PAN Card Correction</li>
+<li>નામ / જન્મ તારીખ સુધારો</li>
+<li>સરનામું સુધારો</li>
+<li>PAN Reprint / Duplicate</li>
+</ul>
+</div>
+
+<div id="pf" class="details">
+<b>PF Services</b>
+<ul>
+<li>UAN Activation</li>
+<li>PF KYC Update</li>
+<li>PF Balance Check</li>
+<li>PF Advance Claim</li>
+<li>PF Final Withdrawal</li>
+<li>Pension સંબંધિત સેવાઓ</li>
+</ul>
+</div>
+
+<div id="aadhaar" class="details">
+<b>Aadhaar Services</b>
+<ul>
+<li>Aadhaar Print</li>
+<li>Mobile Number Update</li>
+<li>Address Update</li>
+<li>Aadhaar સંબંધિત ઓનલાઈન સેવાઓ</li>
+</ul>
+</div>
+
+<div id="scholarship" class="details">
+<b>🎓 Scholarship Services</b>
+<ul>
+<li>ધોરણ 9 થી કોલેજ સુધીના Scholarship Forms</li>
+<li>Digital Gujarat Scholarship</li>
+<li>Post Matric Scholarship</li>
+<li>Scholarship Status Check</li>
+</ul>
+</div>
+
+<div id="government" class="details">
+<b>🏛️ સરકારી સેવાઓ</b>
+<ul>
+<li>7/12 નકલ</li>
+<li>E-Shram Card</li>
+<li>Udyam Registration</li>
+<li>Election Card Services</li>
+<li>વૃદ્ધ સહાય</li>
+<li>વિધવા સહાય</li>
+<li>Pension KYC</li>
+</ul>
+</div>
+
+<div id="documents" class="details">
+<b>📄 Document Services</b>
+<ul>
+<li>Xerox</li>
+<li>Printout</li>
+<li>Lamination</li>
+<li>Passport Size Photo</li>
+<li>Online Form Filling</li>
+<li>Recruitment Forms</li>
+</ul>
+</div>
+
+<div id="itr" class="details">
+<b>💰 ITR Filing</b>
+<ul>
+<li>ITR-1 થી ITR-4</li>
+<li>Form 16 આધારિત ITR</li>
+<li>Bank Passbook આધારિત ITR</li>
+<li>ITR Status Check</li>
+</ul>
+</div>
+
+<div id="other" class="details">
+<b>➕ અન્ય સેવાઓ</b>
+<ul>
+<li>Online Application</li>
+<li>Document Upload</li>
+<li>Government Portal Services</li>
+<li>વિવિધ ઓનલાઈન કામ</li>
+</ul>
+</div>
+
+</div>
+
+<div class="card">
+<h2>📍 અમારું સરનામું</h2>
+<p><b>શ્રીજી ઝેરોક્ષ & CSC Center</b></p>
+<p>📍 પાડું, પિનકોડ - 391530</p>
+
+<div class="buttons">
+<a class="btn call" href="tel:9327947102">📞 Call Now</a>
+<a class="btn whatsapp" href="https://wa.me/919327947102">💬 WhatsApp</a>
+<a class="btn map" href="https://www.google.com/maps/search/?api=1&query=Pandu%20391530">📍 Google Maps</a>
+</div>
+</div>
+
+<div class="card">
+<h2>📞 સંપર્ક કરો</h2>
+<p>👤 Divyarajsinh</p>
+<p>📱 <b>9327947102</b></p>
+<p>⏰ ઓનલાઈન અને ડોક્યુમેન્ટ સંબંધિત સેવાઓ માટે સંપર્ક કરો.</p>
+</div>
+
+</div>
+
+<footer>
+© 2026 Shreeji Xerox & CSC Center<br>
+Pandu - 391530
+</footer>
+
+<script>
+function show(id){
+document.querySelectorAll('.details').forEach(x=>x.classList.remove('show'));
+document.getElementById(id).classList.add('show');
+}
+</script>
+
+</body>
+</html>
